@@ -254,7 +254,7 @@
         let searchAlbum = albumInputField.value.toLowerCase();
 
         if (searchArtist === "" && searchAlbum === "" && searchSong === "" && searchGenre === ""){
-            prompt("Please enter search criteria")
+            alert("Please enter search criteria")
         }
         else{
             let resultArray = songs.filter(item =>{
